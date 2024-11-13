@@ -99,7 +99,7 @@ const Explore = () => {
           </div>
 
           <div
-            className="hidden xl:block w-[50vw] bg-cover rounded-2xl lg:h-[95vh] lg:w-[30vw] xl:h-[100vh]"
+            className="hidden lg:block w-[50vw] bg-cover rounded-2xl lg:h-[95vh] lg:w-[30vw] xl:h-[100vh]"
             style={{ backgroundImage: "url('/assets/gate.png')" }}
           >
             
