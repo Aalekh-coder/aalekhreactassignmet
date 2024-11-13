@@ -82,24 +82,24 @@ const Explore = () => {
 
 <div className="flex gap-2 mx-3 sm:px-5 sm:py-8 md:gap-8 xl:gap-14 ">
           <div
-            className="w-[53vw] bg-cover h-[45vh] rounded-2xl sm:h-[90vh] md:h-[100vh] lg:h-[95vh] lg:w-[30vw]"
+            className="w-[53vw] bg-cover h-[45vh] rounded-2xl sm:h-[90vh] md:h-[100vh] lg:h-[95vh] lg:w-[30vw] xl:h-[100vh]"
             style={{ backgroundImage: "url('./assets/darjeeling.png')" }}
           >
             <img
               src="/assets/text3.png"
-              className="mt-[11rem] w-[18rem] sm:mt-[22rem] md:mt-[28rem] md:ml-[2.6rem] sm:mx-8 "
+              className="mt-[11rem] w-[18rem] sm:mt-[24rem] md:mt-[28rem] md:ml-[2.6rem] sm:mx-8 xl:mt-[30rem]"
             />
           </div>
 
           <div
-            className="w-[50vw] bg-cover rounded-2xl lg:h-[95vh] lg:w-[30vw]"
+            className="w-[50vw] bg-cover rounded-2xl lg:h-[95vh] lg:w-[30vw] xl:h-[100vh]"
             style={{ backgroundImage: "url('/assets/green.png')" }}
           >
             
           </div>
 
           <div
-            className="w-[50vw] bg-cover rounded-2xl lg:h-[95vh] lg:w-[30vw]"
+            className="hidden xl:block w-[50vw] bg-cover rounded-2xl lg:h-[95vh] lg:w-[30vw] xl:h-[100vh]"
             style={{ backgroundImage: "url('/assets/gate.png')" }}
           >
             
@@ -107,15 +107,7 @@ const Explore = () => {
 
       
 
-          <div
-            className="hidden 2xl:block h-[16rem] w-[10rem] bg-contain bg-no-repeat -z-30 rounded-xl sm:h-[30rem] sm:w-[20rem] md:h-[35rem] "
-            style={{ backgroundImage: "url('/assets/darjeeling.png')" }}
-          >
-            <img
-              src="/assets/text3.png"
-              className="mt-[11rem] w-[18rem] sm:mt-[22rem] md:mt-[25rem] md:ml-[2rem]"
-            />
-          </div>
+      
         </div>
       </div>
 

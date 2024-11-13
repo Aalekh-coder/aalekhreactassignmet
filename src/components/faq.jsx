@@ -18,18 +18,19 @@ const Faq = () => {
   };
 
   return (
-    <div className="mt-5 px-5 md:px-10 xl:px-[12.5rem] 2xl:px-[10.75rem]">
-      <div className="flex items-center justify-center">
+    <div className="mt-5 px-5 md:px-10 xl:px-[10.5rem] 2xl:px-[4.75rem]  xl:mt-[5rem]" >
+      <div className="flex items-center justify-center mb-10 ">
         <img src="/assets/Title.png" alt="Title" className="sm:h-[10rem] lg:h-[12rem] xl:h-[14rem] 2xl:h-[15rem]" />
       </div>
+
       {faqItems.map((item) => (
         <div
           key={item.id}
-          className="bg-white border border-gray-300 rounded-2xl mb-5 overflow-hidden shadow-lg"
+          className="bg-white border border-gray-300 rounded-2xl mb-5 overflow-hidden shadow-lg xl:w-[80vw] 2xl:w-[90vw] mx-auto "
         >
           {/* Accordion Header */}
           <div
-            className="flex justify-between items-center p-4 bg-white cursor-pointer"
+            className="flex justify-between items-center p-4 bg-white cursor-pointer "
             onClick={() => toggleAccordion(item.id)}
           >
             <img src={`/assets/text${item.id + 11}.png`} className="sm:w-[15rem] lg:ml-[3rem] xl:w-[20rem]" alt="accordion item" />

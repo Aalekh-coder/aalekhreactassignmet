@@ -1,6 +1,8 @@
 const Hero = () => {
   return (
-    <div className="sm:mx-[3rem]">
+    <div className="sm:mx-[3rem] lg:flex xl:mb-10">
+      <div>
+        
       <div className="md:flex lg:flex-col">
         <div className="px-5 py-9 ">
           <img
@@ -25,15 +27,18 @@ const Hero = () => {
           <img src="/assets/button2.png" className="sm:h-[3rem] md:h-[4rem] lg:h-[3rem] 2xl:h-[5rem]" />
         </a>
       </div>
+</div>
 
-      <div className="px-5 py-2 sm:px-14 sm:py-4 md:px-3 md:py-5  lg:absolute top-[6rem] right-[1rem] -z-30">
-        <img src="/assets/Frame801.png" className="sm:h-[30rem] md:h-[40rem] md:mx-auto lg:h-[30rem] 2xl:h-[45rem]" />
+      <div className="lg:mt-8 ">
+        <img src="/assets/Frame801.png" className="sm:h-[30rem] md:h-[40rem] md:mx-auto lg:h-[33rem] lg:ml-[12rem] 2xl:h-[45rem] 2xl:ml-[5rem] 2xl:mr-10" />
       </div>
-      {/* <div className="px-5 py-2 sm:px-14 sm:py-4 md:px-3 md:py-5  lg:absolute top-[6rem] right-[1rem] -z-30">
-        <img src="/assets/Frame801.png" className="sm:h-[30rem] md:h-[40rem] md:mx-auto lg:h-[30rem] 2xl:h-[45rem]" />
-      </div> */}
     </div>
   );
 };
 
 export default Hero;
+
+
+{/* <div className="px-5 py-2 sm:px-14 sm:py-4 md:px-3 md:py-5  lg:absolute top-[6rem] right-[1rem] -z-30">
+        <img src="/assets/Frame801.png" className="sm:h-[30rem] md:h-[40rem] md:mx-auto lg:h-[30rem] 2xl:h-[45rem]" />
+      </div> */}

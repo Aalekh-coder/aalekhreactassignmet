@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Influaner = () => {
   return (
@@ -10,7 +10,7 @@ const Influaner = () => {
         />
       </div>
 
-      <div className="flex items-center justify-between sm:mx-8">
+      <div className="flex items-center justify-between sm:mx-8 xl:mx-[5rem] 2xl:mx-[10rem]">
         <img
           src="/assets/janat.png"
           className="rounded-full h-[5rem] sm:h-[10rem] md:h-[13rem]"
